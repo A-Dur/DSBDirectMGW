@@ -1,0 +1,6 @@
+Dieser Release beinhaltet einen neuen Parser mit dem Namen "BlueWilli", mit Dank an Bixilon.
+
+* Neuer Parser
+* Reperatur des Imports von Kürzeln via eltern-portal.org
+* Ende der Verbreitung neuer Versionen über notabug
+* Update-Checker entfernt

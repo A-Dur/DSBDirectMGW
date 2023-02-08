@@ -1,0 +1,12 @@
+Here are a few accumulated improvements which should be worth an update. It's finally possible to store credentials for multiple substitution plans and to switch back and forth using the menu. Additionally, there is now a user interface for the shortcode feature, and thanks to Moritz Zwerger, one can also import shortcodes from the "Eltern-Portal" platform. Furthermore, there is a new parser called "WhiteYellow", and entries which match multiple filter categories are highlighted.
+
+Finally, I learned that "substitute plan" is not good English.
+
+---
+
+* Multiple logins (#26)
+* Request parser without transferring credentials (#56)
+* Shortcodes (#27)
+* Import shortcodes from "Eltern-Portal" (#57)
+* Highlight entries matching multiple filters (#49)
+* WhiteYellow parser for substitution plans of a timetable software with an unknown name

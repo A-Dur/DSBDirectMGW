@@ -1,0 +1,7 @@
+Es ist nun möglich, nach Kursen zu filtern.
+
+---
+
+* Filter verbessert
+* Kursfilter hinzugefügt
+* Generelle Ankündigungen standardmäßig anzeigen

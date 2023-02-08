@@ -1,0 +1,17 @@
+*It's about time.*
+
+* Caching: Dateien werden für eine auswählbare Dauer gespeichert (#7)
+* Zeitreise: Schaue ältere Versionen des Plans an (#7)
+* Einstellungsbildschirm, damit das Overflow-Menü nicht so voll ist (#10)
+* Verschiebung aller Einstellungen ins Einstellungsmenü, weil es sonst keines wäre
+* Weniger lag, während Dateien ausgelesen werden
+* Filter-An/Aus-Schalter im Einstellungsmenü
+* Einstellung zur Häufigkeit der Suche nach Aktualisierungen
+* Versionsnummernanzeige im Einstellungsmenü
+* Neuer Knopf zum Löschen aller gespeicherten Dateien
+* Neuer Knopf zum E-Mail-Nachricht schreiben
+* Noch ein neuer Knopf zum E-Mail-Nachricht schreiben, falls man gerne einen eigenen Parser hätte
+* Neuer Knopf zur Repository
+* Noch ein neuer Knopf zur Repository, aber er heißt Issue tracker
+* Röntgen-Gymnasium Würzburg wird auch automatisch geparst, nachdem Genehmigung zum Implementieren der ID erteilt wurde
+* Im Browser Öffnen wurde entfernt, weil keiner den Plan im Browser ansehen will, wenn man doch DSBDirect hat

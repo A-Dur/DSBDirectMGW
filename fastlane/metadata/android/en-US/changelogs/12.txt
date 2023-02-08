@@ -1,0 +1,8 @@
+* Implement notifications through polling (#4)
+* Add settings relevant to notifications
+* Add metadata for F-Droid, taking new screenshots and creating a nice feature graphic in the process (#12)
+* Fix issue where class filter would not work when no letter was set
+* Improve horizontal scroller behaviour
+* Fix display issues when switching between files
+* Partially fix a bug with last updated message (#13)
+* Add hidden super secret settings (not accessable through UI)

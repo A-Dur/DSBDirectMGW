@@ -1,0 +1,1 @@
+* Absturz bezüglich des Untis-Tabellenlesers behoben

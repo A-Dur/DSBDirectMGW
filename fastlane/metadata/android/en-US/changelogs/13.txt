@@ -1,0 +1,4 @@
+* Notifications for tables that can't be parsed
+* Upgrade a library's version to improve stability
+
+Let's hope this is stable…

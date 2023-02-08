@@ -1,0 +1,11 @@
+Dieses Update ist erforderlich, um den neuen DSB-Endpunkt zu unterstützen, und um die Applikation auf älteren Android-Versionen am Laufen zu halten.
+
+* Unterstützung für den neuen Endpunkt (#81 #82)
+* Wechsel zwischen Endpunkten (#82)
+* TLS 1.2 auf älteren Android-Versionen (#17 #82)
+* Alle Benachrichtigungen beim antippen automatisch verstecken
+* Passwort durch Reauthentifizieren ändern (#75)
+* Nach Reauthentifizierung fragen, falls die Zugangsdaten abgelehnt werden (#75)
+* Geeignete Nachricht anzeigen, wenn keine Inhalte verfügbar sind
+* Anzeigefehler im Anmeldebildschrim behoben (#61)
+* Unterstützung für Android-API 14

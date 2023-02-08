@@ -1,0 +1,1 @@
+After installing this update, you will be able to color your installation with pretty colors (to some extent). Also adds support for "inline headers" in Untis plans and fixes an annoying encoding issue.

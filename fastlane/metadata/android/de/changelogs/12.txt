@@ -1,0 +1,8 @@
+* Benachrichtigungen über neue Einträge (#4)
+* Für Benachrichtigungen relevante Einstellungen
+* Metadaten für F-Droid, wofür auch neue Screenshots und eine Feature graphic entstanden sind (#12)
+* Klassenfilter behoben, wenn kein Buchstabe eingegeben war
+* Verhalten des horizontalen Scrollers verbessert
+* Wechsel zwischen Dateien verbessert
+* Teilweise Fehler mit Letzte Änderung-Nachricht behoben (#13)
+* Versteckte Einstellungen hinzugefügt (nicht im Einstellungsmenü verfügbar)

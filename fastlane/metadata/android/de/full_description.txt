@@ -1,0 +1,11 @@
+Diese Software kann auf ein gewisses Vertretungsplansystem (genannt ESB) zugreifen, welches im deutschsprachigen Raum weit verbreitet ist.
+
+Sie wurde unabhängig von heinekingmedia entwickelt und implementiert die gleiche Funktionalität wie deren App.
+
+* Zeigt Einträge in einer schönen, nativen Liste an, die gefiltert werden kann
+* Alternativ zeigt sie die Webseite oder Bilder roh an
+* Lokal gespeicherte alte Versionen des Planes können betrachtet werden
+* Benachrichtigungen, die nur deine Einträge enthalten
+* Kürzel durch vollständige Namen der Lehrkräfte ersetzen
+* "News" und "Aushänge"-Bereich betrachten
+* Lädt relativ schnell

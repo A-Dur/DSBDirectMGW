@@ -1,0 +1,8 @@
+Dieses Update enthält mehrere Verbesserungen:
+
+* Dieser und zukünftige Changelogs sind jetzt Deutsch.
+* Radikale Verbesserungen am Filter für Klassen mit nur einer Ziffer.
+* Neu Laden verbessert.
+* Automatische Suche nach Updates eingefügt.
+* Manuelle Suche nach Updates eingeführt.
+* Die apk-Datei ist jetzt zusätzlich mit SHA1 signiert, um ältere Geräte zu unterstützen.

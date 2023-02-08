@@ -1,0 +1,2 @@
+* Die F-Droid-Version sucht nicht mehr automatisch nach Updates.
+* Absturz, wenn man "Im Browser öffnen" wählte, obwohl die URL noch nicht geladen worden war, behoben (#1)

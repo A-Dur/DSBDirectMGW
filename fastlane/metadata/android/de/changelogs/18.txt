@@ -1,0 +1,8 @@
+Klingt jetzt natürlich nach einem sehr uninspirierten Changelog… aber die Startzeit wurde um etwa 600 Millisekunden verkürzt. Außerdem wurden über 700 Zeilen, die mit dem Herunterladen des Planes zusammenhängen, geändert, weswegen ich gerne das Gefühl habe, dass das jetzt ebenfalls schneller geht.
+
+---
+
+Deutliche Geschwindigkeitsverbesserungen.
+* WebView wird nur noch geladen, wenn es notwendig ist
+* WebView wird während des Downloads geladen, wenn es notwendig ist
+* Netzwerkcode überarbeitet, sodass er sich zumindest schneller anfühlt

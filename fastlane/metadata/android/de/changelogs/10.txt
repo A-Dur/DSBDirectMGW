@@ -1,0 +1,1 @@
+Hotfix: Version 1.6 hat auf älteren Android-Versionen nicht funktioniert.

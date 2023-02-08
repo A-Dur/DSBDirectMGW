@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ DSBDirect
+  ~ Copyright (C) 2019 Fynn Godau
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ This software is not affiliated with heinekingmedia GmbH, the
+  ~ developer of the DSB platform.
+  -->
+
+<resources>
+
+    <style name="LoginTheme" parent="Light">
+        <!--Double trouble! -->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textOverPrimary</item>
+        <item name="android:textColorPrimary">@color/textOverPrimary</item>
+        <item name="android:editTextColor">@color/textOverPrimary</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+        <item name="TextOverBackground">@color/textOverPrimary</item>
+    </style>
+
+    <style name="LoginTheme.AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textOverPrimary</item>
+    </style>
+
+    <style name="Startup" parent="Light">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Dsbdirect.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style>
+
+    <style name="Widget.Dsbdirect.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_inner_view_background</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+</resources>

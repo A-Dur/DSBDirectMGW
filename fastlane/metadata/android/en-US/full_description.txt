@@ -1,0 +1,11 @@
+This software can access a certain substitution plan distribution system (aliased ESB) which is widely spread in the German-speaking area.
+
+It has been developed independently from heinekingmedia and implements the same functionality as their app.
+
+* Displays entries in a nice, native list which you can filter
+* Alternatively displays the raw website or image
+* View older versions of your plan, stored locally
+* Notifications containing only your entries
+* Replace shortcodes with teacher's full names
+* View the "News" and "Aushänge" sections
+* Loads relatively quickly

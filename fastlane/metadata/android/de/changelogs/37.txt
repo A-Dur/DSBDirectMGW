@@ -1,0 +1,6 @@
+Diese Version beinhaltet viel Programmcode, der die interne Datenstruktur verbessert, aber nach außen hin nicht sichtbar ist. Zukünftige Funktionen, die auf diesen internen Veränderungen aufbauen, können in den nächsten Versionen enthalten sein.
+Für Nutzende sichtbar ist, dass in diesem Update zahlreiche Fehlerbehebungen sowie eine Verbesserung der Leistung beim Scrollen enthalten sind.
+
+* Verbesserte Scrolling-Performance
+* Weniger Lag beim Bearbeiten von Kürzeln
+* Zahlreiche verschiedenen graphische Fehlerbehebungen

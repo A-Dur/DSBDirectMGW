@@ -1,0 +1,8 @@
+This will sound like a very uninspired changlog… but startup time is estimated to be improved by roughly 600 milliseconds. Furthermore, over 700 lines that have to do with networking have been changed, so I like to believe that network activity is faster now.
+
+---
+
+Considerable speed improvements.
+* WebView is only loaded if necessary
+* WebView is loaded during download if necessary
+* Network code changed to at least feel faster

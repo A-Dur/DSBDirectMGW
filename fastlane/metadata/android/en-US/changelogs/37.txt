@@ -1,0 +1,6 @@
+This version contains a lot of new code concerning the internal data structure, but most of it is not visible. Features built upon these improvements might be included in future version.
+User-facing, this update brings various fixes as well as an improvement to the scrolling performance.
+
+* Improve scrolling performance
+* Reduce lag when editing shortcodes
+* Various numerous visual fixes

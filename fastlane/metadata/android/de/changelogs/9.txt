@@ -1,0 +1,10 @@
+*Erster Auftritt, Sechster Aufzug.*
+
+* Unterstützung für mehrere Parser (#9)
+* Unterstützung für Auswahl aus den verschiedenen Parsern
+* Parser für das Röntgen-Gymnasium Würzburg – damit ist die Zahl der verfügbaren Parser verdoppelt (von 1 auf 2)
+* Filteroption "Generelle Ankündigungen immer Anzeigen" (teilweise #5)
+* Verbesserte Updatebenachrichtigungen und Downloads
+* Datums-/Wochentagesanzeige in der Sprache des Geräts
+* Anzeige eines beruhigenden Textes, wenn keine Einträge vorhanden sind
+* Deaktivierung von JavaScript in der Webseitendarstellung

@@ -1,0 +1,7 @@
+Verschiedene Verbesserungen.
+
+* Neuer Plan verfügbar-Benachrichtigungen automatisch abbrechen
+* HTML-Handling in Benachrichtigungen
+* Doppelte Pläne nur einmal anzeigen (#16)
+* Durchstrich auf älteren Geräten
+

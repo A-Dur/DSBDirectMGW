@@ -1,0 +1,364 @@
+<!--
+  ~ DSBDirect
+  ~ Copyright (C) 2019 Fynn Godau
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ This software is not affiliated with heinekingmedia GmbH, the
+  ~ developer of the DSB platform.
+  -->
+
+<resources>
+    <string name="app_name">DSBDirectMGW</string>
+    <string name="app_name_offline">DSBDirectMGW Time Travel</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="credentials_invalid">Credentials invalid</string>
+    <string name="credentials_correct">Credentials confirmed</string>
+
+    <string name="credentials_popup_title">Authentication failure</string>
+    <string name="credentials_popup_open_preferences">Open preferences</string>
+
+    <string name="timetable_uri_acquired">Loading timetable</string>
+    <string name="timetable_last_changed">Last updated %s</string>
+    <string name="timetable_published">Published %s</string>
+
+    <string name="timetable_updated_now">Just now</string>
+
+    <string name="network_generic_error">Network error</string>
+    <string name="network_invalid_response">Invalid response</string>
+
+    <string name="error_parsing">Could not parse data to table</string>
+    <string name="error_parsing_partial">Some data could not be parsed</string>
+
+    <string name="network_authenticating">Authenticating</string>
+
+    <string name="uri_news" translatable="false">https://notabug.org/fynngodau/DSBDirect/raw/master/news</string> <!-- This is indeed a professional way to check for news. -->
+    <string name="uri_repository" translatable="false">https://notabug.org/fynngodau/DSBDirect</string>
+    <string name="uri_mgw_repository" translatable="false">https://github.com/A-Dur/DSBDirectMGW</string>
+    <string name="uri_issue_tracker" translatable="false">https://notabug.org/fynngodau/DSBDirect/issues</string>
+    <string name="uri_requestparser" translatable="false">https://dsb.bixilon.de/api/requestParse.php</string>
+
+    <string name="query_body_base_json" translatable="false">{\"AppVersion\":\"2.5.9\",\"BundleId\":\"de.heinekingmedia.dsbmobile\"}</string>
+    <string name="query_body_outer_json" translatable="false">{\"req\":{\"Data\":\"%s\",\"DataType\":1}}</string>
+
+    <string name="email_uri" translatable="false">mailto:fynngodau@mailbox.org?subject=ESBDirect&amp;body=%s</string>
+    <string name="email_body">(Be kind!)</string>
+
+    <string name="input_hint_pass">Pass</string>
+    <string name="input_hint_id">ID</string>
+
+    <string name="button_submit">Submit</string>
+
+    <string name="action_reload">Reload</string>
+    <string name="action_temp_filters_enable">Enable Filters</string>
+    <string name="action_temp_filters_disable">Disable Filters</string>
+    <string name="action_reauth">Reauthenticate</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_choose_parser">Select parser</string>
+    <string name="action_view_history">View history</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="added">added</string>
+    <string name="already_added">already added</string>
+    <string name="removed">removed</string>
+    <string name="cancel">Cancel</string>
+    <string name="import_">Import</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="download">Download</string>
+    <string name="action_filter_popup_title">Filter</string>
+    <string name="number">Number</string>
+    <string name="letter">Letter</string>
+    <string name="name">Name</string>
+    <string name="filter_by_class">Filter by class</string>
+    <string name="filter_by_teacher">Filter by teacher</string>
+    <string name="settings_view_filter_exclude_general">Always display general announcements (recommended)</string>
+    <string name="action_filter_popup_message">Please input what class or course or teacher to filter for. Entries that match multiple categories will be <b>highlighted</b>. Case-sensitive.</string>
+    <string name="action_parse">Parse to table</string>
+    <string name="initializing">Initializing</string>
+    <string name="parser_automatic">Automatic</string>
+    <string name="ok">OK</string>
+    <string name="empty">Nothing to display</string>
+    <string name="you_are_offline">You are offline</string>
+    <string name="empty_string">""</string>
+
+    <string name="one_file">one file</string>
+    <string name="files">files</string>
+
+    <string name="transfer_now">Transfer now</string>
+    <string name="dont_request">Don\'t request</string>
+    <string name="open">Open</string>
+
+
+    <string name="action_settings">Preferences</string>
+
+    <string name="settings_view">View</string>
+    <string name="settings_view_parse">Parse</string>
+    <string name="settings_view_parse_not_html">Image tables can\'t be parsed</string>
+    <string name="settings_view_parser">Parser</string>
+    <string name="settings_view_filter">Enable filters</string>
+    <string name="settings_view_useless">Hide Useless Entries</string>
+    <string name="settings_view_useless_summary">Does not show unimportant entries like \"Abwesende Klassen\"</string>
+    <string name="settings_view_set_filter">Set filters</string>
+    <string name="settings_view_parse_summary">Read out plans into a processable table using a parser</string>
+    <string name="settings_view_filter_summary">Only display relevant entries</string>
+
+    <string name="connect_webuntis_preference">Connect to WebUntis</string>
+    <string name="connect_webuntis_preference_summary">Connect another substitution plan (e.g. from LAU, which uses WebUntis) so that you can also integrate it here (in development)</string>
+
+    <string name="settings_login">Login</string>
+    <string name="settings_login_id">ID</string>
+    <string name="settings_login_pass">Pass</string>
+
+    <string name="settings_time_travel">Time travel</string>
+    <string name="settings_time_travel_caching">Store duration</string>
+    <string name="settings_time_travel_caching_summary">Keep files for %s</string>
+    <string name="settings_time_travel_clear_cache">Delete all files now</string>
+    <string name="settings_time_travel_description">Time travel allows you to view past plan versions stored on your device.</string>
+
+    <string name="clear_cache_popup_title">Delete files</string>
+    <string name="clear_cache_popup_message">Would you like to delete %1$s, occupying %2$s?</string>
+
+    <string name="settings_about">About</string>
+    <string name="settings_about_description">Developed by Fynn Godau</string>
+    <string name="settings_about_description_summary">You are on version %s</string>
+    <string name="settings_about_email">Write the developer an email message</string>
+    <string name="settings_about_email_summary">He appreciates thank-you messages because they let him know someone uses the software he developed</string>
+    <string name="settings_about_request_parser">Request a parser to be developed</string>
+    <string name="settings_about_issues">File an issue</string>
+    <string name="settings_about_repository">Check out the original DSBDirect repository</string>
+    <string name="settings_about_repository_summary">This software is licensed under GNU GPL v3, meaning that you got additional freedoms</string>
+    <string name="settings_about_mgw_repository">DSBDirectMGW Repository</string>
+    <string name="settings_about_mgw_repository_summary">The repository for this release</string>
+    <string name="settings_about_issues_summary">Utilise the issue tracker to request features and report bugs</string>
+
+    <string name="request_parser_popup_title">Request parser</string>
+    <string name="request_parser_popup_message">
+        To develop a parser, it is necessary for the developer to have access to your plan.
+        \n\nTherefore, the URL of the most recent substitution plan file will be sent to a server operated by Moritz Zwerger (bixilon.de).
+        \n\nPlease understand that the developer might not have time for your plan in the near future, especially if it differs much from already supported plans.
+        \n\nNo personal information is stored during the transfer. The upload process is not reversible automatically, please get in touch if you sent sensitive information on accident.
+        \n\nIf your plan consists of images, it can\'t be parsed. Ask your school to provide a website file to Elektronisches Schwarzes Brett instead.
+        \n\nIt might still be useful to create an issue, then you get notified about updates regarding the parser.
+    </string>
+    <string name="settings_polling">Notifications</string>
+    <string name="settings_polling_enabled">Enable notifications</string>
+    <string name="settings_polling_interval">Check interval</string>
+    <string name="settings_polling_interval_summary">Check for new plan notifications every %s</string>
+    <string name="settings_view_polling_api_too_low">Requires Android 5.0+</string>
+
+    <string name="notification_channel_plan_updates">Plan updates</string>
+    <string name="notification_channel_plan_updates_description">Notify about plan updates</string>
+
+    <string name="notification_plan_html_updates_title">Today</string>
+    <string name="notification_plan_html_updates_empty">No entries for today</string>
+    <string name="notification_plan_updates_title">New plan available</string>
+
+    <string name="notification_plan_updates_text_pluralize_entries_one">There is one entry</string>
+    <string name="notification_plan_updates_text_pluralize_entries_many">There are {0} entries</string>
+    <string name="settings_polling_description">Receive today\'s entries in a notification as soon as they become available. This feature may cause battery drain. No checks are performed during weekends and during night-time to conserve energy.</string>
+    <string name="settings_view_filter_hide_past">Hide past entries</string>
+    <string name="settings_polling_display_empty">Display empty notifications</string>
+    <string name="settings_polling_display_empty_summary">Also notify if no entries match filters</string>
+    <string name="settings_polling_download">Download new tables automatically</string>
+    <string name="settings_polling_download_summary">Download new content as soon as it is found</string>
+    <string name="settings_polling_save_data">Do not check after 4 pm (Beta)</string>
+    <string name="settings_polling_save_data_summary">After 4 pm the app stops looking for new entries to save network traffic</string>
+    <string name="settings_polling_download_recommended">Required for displaying table content in notifications</string>
+    <string name="settings_view_layout">Layout</string>
+    <string name="error_displaying">File could not be displayed</string>
+    <string name="settings_view_merge">Merge</string>
+    <string name="settings_view_merge_summary">Merge multiple pages into one table</string>
+    <string name="long_click_add_course_parser">Hold To Add Course</string>
+    <string name="long_click_add_course_parser_summary">If you long-press an entry, you can add the contained course to your filters (Replaces hold to Share)</string>
+
+    <string name="login_login">Log in</string>
+    <string name="login_title">Log in to Elektronisches Schwarzes Brett</string>
+    <string name="mgw_notice">You can get the login data for the substitution plan from the school office.</string>
+    <string name="credentials_popup_message">Your credentials appear to be invalid. If they are not, this might be a problem for which a fix already exists.</string>
+    <string name="network_generic_error_credentials">A problem occurred during an attempt to verify your credentials.</string>
+    <string name="network_generic_error_request">A problem occurred during an attempt to send your request. Please ensure that the internet is reachable.</string>
+    <string name="notifications_popup_title">Enable notifications?</string>
+    <string name="notifications_popup_message">Would you like to be notified whenever your plan updates?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="share_title">Share this entry</string>
+    <string name="settings_filter">Filter</string>
+    <string name="settings_view_style">Background</string>
+    <string name="settings_parser">Parser</string>
+    <string name="settings_view_invert_images">Invert images</string>
+    <string name="settings_view_invert_images_summary">Flip image colors to switch black and white</string>
+    <string name="settings_view_invert_images_no_images">There are no images in your plan</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="settings_about_libraries">About libraries</string>
+    <string name="settings_about_show_changes">All changes of the MGW version</string>
+    <string name="settings_about_show_changes_summary">Show changes that the MGW version has compared to the original version</string>
+    <string name="contact_app_developer">Contact app developer</string>
+    <string name="credits">HeinekingMedia parser developed by Jasper Michalke
+        \nSome other stuff developed by Moritz Zwerger\nAdapted for the MGW by Arthur Harder
+    </string>
+    <string name="settings_view_styling">Style and Colors</string>
+    <string name="settings_styling_color_primary">Primary color</string>
+    <string name="action_pick_color_popup_message">Select a color using the picker below.</string>
+    <string name="action_pick_color_popup">Pick color</string>
+    <string name="settings_styling_color_accent">Accent color</string>
+    <string name="settings_styling_color_primary_dark">Primary color dark</string>
+    <string name="settings_style_description">You may adjust the application\'s colors to your liking. Unfortunately, the default blue and pink will still be visible at some occasions where it is hard or impossible to change them.</string>
+    <string name="filter_by_courses">Filter by courses (separate with spaces; courses must appear in the info field)</string>
+    <string name="courses">Courses</string>
+    <string name="news_fix">Look for a fix</string>
+    <string name="news_network_error_generic">Could not look for a fix due to a network error.</string>
+    <string name="news_network_invalid_response">Looking for a fix failed, maybe try again later?</string>
+    <string name="action_check_news">Download news</string>
+    <string name="network_login_denied">Login denied – either your credentials are incorrect or the server isn\'t feeling like it</string>
+    <string name="settings_view_parse_not_exclusively_html">Merging is not possible because your plan contains at least one image</string>
+    <string name="action_switch_login">Switch login</string>
+    <string name="action_add_login">Add login</string>
+    <string name="settings_login_manage">Manage credentials</string>
+    <string name="settings_login_alias_popup">Set display name for %s</string>
+    <string name="settings_login_alias_popup_message">When you set a display name, it will be displayed instead of the id in the login switcher. If left empty, it will be populated with the school\'s name if possible.</string>
+    <string name="settings_login_description">You can switch between multiple logins using the menu on the main screen.</string>
+    <string name="settings_login_remove">Remove login</string>
+    <string name="request_parser_uploading_message">Requesting…</string>
+    <string name="request_parser_uploading_failed_message">The server said there was a problem retrieving your file.</string>
+    <string name="request_parser_uploading_successful_message">The server has successfully received your file.</string>
+    <string name="request_parser_uploading_successful_title">Request successful</string>
+    <string name="request_parser_uploading_failed_title">Request failed</string>
+
+    <string name="settings_shortcodes">Shortcodes</string>
+    <string name="settings_shortcodes_enable">Enable shortcodes</string>
+    <string name="settings_shortcodes_enable_summary">Replaced shortcodes by the teacher\'s full name</string>
+    <string name="settings_shortcodes_elternportal">Import from eltern-portal.org</string>
+    <string name="settings_shortcodes_elternportal_summary">If your school uses the "Eltern-Portal" platform, shortcodes can be downloaded from it (Unfortunately, the MGW does not use this platform)</string>
+
+    <string name="settings_shortcodes_elternportal_popup_title">Import shortcodes</string>
+    <string name="settings_shortcodes_elternportal_popup_message">In order to import your shortcodes, please enter your credentials for the "Eltern-Portal" operated by art soft and more GmbH. Credentials are not stored. Existing shortcodes will be overwritten.</string>
+
+    <string name="settings_shortcodes_elternportal_popup_text_url">Portal URL</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_url">URL</string>
+    <string name="settings_shortcodes_elternportal_popup_text_email">Email address</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_email">Email</string>
+    <string name="settings_shortcodes_elternportal_popup_text_password">Password</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_password">Pass</string>
+
+    <string name="settings_shortcodes_elternportal_popup_success_title">Import successful</string>
+    <string name="settings_shortcodes_elternportal_popup_fail_title">Import failed</string>
+    <string name="settings_shortcodes_elternportal_popup_success_message">The shortcodes were imported successfully.</string>
+    <string name="settings_shortcodes_elternportal_popup_fail_network">A problem occurred during an attempt to contact the Eltern-Portal. Please ensure that the internet is reachable.</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_url">Invalid URL</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_url_message">The URL you entered was unfortunately invalid.</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_credentials_invalid">The credentials you entered were unfortunately not correct.</string>
+    <string name="settings_shortcodes_edit_popup">Edit shortcode</string>
+    <string name="settings_shortcodes_edit_popup_remove">Remove shortcode</string>
+    <string name="settings_shortcodes_add">Add shortcode</string>
+    <string name="settings_shortcodes_edit_popup_failure">Shortcode could not be stored</string>
+    <string name="settings_shortcodes_edit_popup_failure_needs_from">Both fields need to be filled.</string>
+    <string name="settings_shortcodes_edit_popup_failure_illegal_character">Neither field may contain the \'→\' character.</string>
+    <string name="settings_shortcodes_manage">Manage shortcodes</string>
+    <string name="settings_shortcodes_add_popup">Add shortcode</string>
+    <string name="settings_shortcodes_description">Shortcodes are replaced with their corresponding teacher\'s full name.</string>
+    <string name="edit">Edit</string>
+
+    <string name="notice_board">Notice board</string>
+
+    <string name="action_notices">Show notices</string>
+    <string name="notice_board_content_not_displayable">Content not displayable</string>
+
+    <string name="notice_board_content_not_displayable_openable">Content not displayable, click to open externally</string>
+    <string name="migration_dsbdirect_rename">This app has been renamed</string>
+
+    <string name="migration_dsbdirect_rename_message">Due to the existence of trademark law, this piece of software has been renamed to ESBDirect. The \"ESB\" stands for \"Elektronisches Schwarzes Brett\".
+\n\nShould you happen to come up with a better name, please don\'t hesitate to write an email.</string>
+    <string name="email_the_dev">Email the dev</string>
+
+    <string name="network_no_content">No content available</string>
+    <string name="network_request_notice_board_generic_error_snackbar">Notice board could not be gathered</string>
+
+    <string name="settings_endpoint">Endpoint</string>
+
+    <string name="settings_endpoint_summary">If the app stops working, try editing this setting</string>
+    <string name="migration_depreciation_self_update">Depreciation notice</string>
+    <string name="migration_depreciation_self_update_message">Due to being too much manual and error-prone work, future updates will no longer be distributed through the repository on notabug. This is the last version on notabug. The integrated update checker has been removed.
+        \n\nPlease obtain future ESBDirect versions from F-Droid.
+        \n\nNote that releases on F-Droid are not compatible with releases on the notabug repository. Thus, the app first has to be uninstalled before it can be installed through F-Droid. Sorry for the inconvenience.
+    </string>
+    <string name="reader_automatic">Automatic (recommended)</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">DSBDirectMGW Substitution Plan Widget (Beta)</string>
+    <string-array name="show_mgw_changes">
+        <item>The \"Information\" column in the substitution plan is displayed</item>
+        <item>Teachers named \"+\" are replaced with \"Kein Vertreter\"</item>
+        <item>If a course has a space instead of a hyphen for reasons unknown to me, it can also be filtered by simply adding a hyphen as well</item>
+        <item>Filtering by class AND courses will no longer show courses from other classes that have the same course name</item>
+        <item>Entries with the type \"Klausur\" are displayed better</item>
+        <item>Added an option to the filters, which allows to add the contained course to the course filter by holding down an entry</item>
+        <item>Other small improvements</item>
+    </string-array>
+    <string-array name="settings_view_layout_options">
+        <item>List</item>
+        <item>Cards – Student</item>
+        <item>Cards – Teacher</item>
+    </string-array>
+    <string-array name="settings_view_layout_values">
+        <item>list</item>
+        <item>cards</item>
+        <item>cards reversed</item>
+    </string-array>
+    <string-array name="settings_view_style_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="settings_view_style_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>black</item>
+    </string-array>
+    <string-array name="settings_polling_interval_options">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="settings_polling_interval_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="settings_time_travel_caching_options">
+        <item>three days</item>
+        <item>one week (default)</item>
+        <item>two weeks</item>
+        <item>one month</item>
+        <item>three months</item>
+        <item>an eternity (only delete manually)</item>
+    </string-array>
+    <string-array name="settings_time_travel_caching_values">
+        <!-- in milliseconds -->
+        <item>259200000</item>
+        <item>604800000</item>
+        <item>1209600000</item>
+        <item>2678400000</item>
+        <item>8035200000</item>
+        <item>Asexuals exist!</item>
+    </string-array>
+    <string-array name="settings_endpoint_options">
+        <item>mobileapi.dsbcontrol.de</item>
+        <item>app.dsbcontrol.de</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+Thanks to Moritz Zwerger's contribution, filters can now be disabled temporarily by touching the "eye" icon, and with collaboration of Jasper Michalke, there is now a Notice board view that displays items from the "Aushänge" and "News" sections for schools that make use of this feature.
+
+Due to the existance of trademark law, this piece of software is being renamed to "ESBDirect". If you come up with a better and cooler name, please inform us about it.
+
+---
+
+* Rename to ESBDirect (#72)
+* Temporarily disable filters (#22 #60)
+* Notice board view for schools which are posting news items (#55)
+* Fix course filter if course is in class (#65)
+* Only replace shortcodes that are whole words (#66 #67 thanks to @tomjschwanke)
+* Untis parser improvements to increase compatibility (thanks to everyone who uploaded files so far as well as @hexchen)
+* Support multiple pages in HeinekingMedia parser (#62)
+* Dynamically detect HeinekingMedia files (#62)
+* Support general announcements and fix display of teacher column for WhiteYellow parser
+* Display shortcodes sorted by alphabet (#60)
+* Don't display courses and logins in chaotic order
+* Migrate shortcode storage format from string set to newline-separated strings
+* Remove Rönten migration

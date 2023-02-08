@@ -1,0 +1,1 @@
+Dank Mitwirkung von Jasper Michalke gibt es jetzt einen Parser für HeinekingMedia-Vertretungspläne, vorerst nur fürs Goethe-Gymnasium Hamburg gedacht. Außerdem lädt jetzt nicht mehr alles neu, wenn man das Gerät dreht. Magie!

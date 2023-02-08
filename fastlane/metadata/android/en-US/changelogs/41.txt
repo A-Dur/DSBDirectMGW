@@ -1,0 +1,4 @@
+Maintenance release.
+
+* Swipe-to-refresh
+* Better activity recreation

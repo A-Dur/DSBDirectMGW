@@ -1,0 +1,5 @@
+Kleines Update
+
+* Entries bei "Entfall wegen Klausur" sind aufgeräumter
+* Entries mit Fächern die Leerzeichen haben, können nun auch gefiltert werden
+* Und noch ein paar Änderungen

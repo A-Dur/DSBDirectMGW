@@ -1,0 +1,18 @@
+The biggest update to date.
+
+* Login prompt on first launch (#11)
+* Merge multiple pages into one (#14)
+* New, fresh cards layout
+* New Untis parser, supporting many more Untis systems than before
+* Automatic detection of Untis systems
+* Parsing support on older Android versions
+* Strikethrough support
+* Dark and black theme
+* Long press to share entry
+* Zoom in on images
+* Display more useful labels on page selector
+* Invert image colors support
+* Blue-colored splash screen
+* Localized update notifications
+* Automatically switch to correct encoding
+* Google Play flavor

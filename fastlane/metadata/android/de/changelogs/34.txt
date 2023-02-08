@@ -1,0 +1,19 @@
+Dank Mitwirkung von Moritz Zwerger könnnen Filter jetzt mittels dem "Auge"-Icon temporär deaktiviert werden, und unter Mitwirkung von Jasper Michalke entstand eine Aushänge-Ansicht, die Inhalte aus den Bereichen "News" und "Aushänge" anzeigt, sofern welche vorhanden sind.
+
+Aufgrund der Existenz des Markenrechts wurde diese Software in "ESBDirect" umbenannt.
+
+---
+
+* Umbenennung in ESBDirect (#72)
+* Filter temporär deaktivieren (#22 #60)
+* Aushänge-Anzeige für Schulen, die welche bereitstellen (#55)
+* Kursfilter behoben, falls der Kurs in der Klasse auftaucht (#65)
+* Nur Kürzel ersetzen, die ganze Wörter sind (#66 #67 mit Dank an @tomjschwanke)
+* Verbesserungen im Untis-Parser, um Kompatibilität zu erhöhen (mit Dank an alle, die bisher Dateien hochgeladen haben sowie @hexchen)
+* Unterstützung für mehrere Seiten im HeinekingMedia parser (#62)
+* HeinekingMedia-Dateien automatisch erkennen (#62)
+* Generelle Ankündigungen mit dem WhiteYellow-Parser auslesen sowie Anzeige der Lehrkraft-Spalte behoben
+* Kürzel alphabetisch sortiert anzeigen
+* Kurse und Logins nicht in chaotischer Reihenfolge anzeigen
+* Speicherformat für Kürzel von StringSet in neuzeilengetrennte String migrieren
+* Rönten-Migration entfernt

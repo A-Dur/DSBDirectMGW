@@ -1,0 +1,1 @@
+Nach der Installation dieses Updates kannst du deine App in hübsche Farben einfärben (in gewissem Umfang). Außerdem wurde ein nerviger Encoding-Fehler behoben und "inline headers" in Untis-Plänen funktionieren jetzt.

@@ -1,0 +1,6 @@
+This release contains a new parser, codenamed BlueWilli, with thanks to bixilon.
+
+* Add new parser
+* Fix eltern-portal.org shortcodes import
+* Deprecate notabug distribution channel
+* Remove update checker

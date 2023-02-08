@@ -1,0 +1,7 @@
+{
+  "versionCode": 40,
+  "versionName": "3.3",
+  "whatsNew": "This update includes a new parser. It is the last update that is being distributed through the notabug repository.",
+  "whatsNewDE": "Dieses Update beinhaltet einen neuen Parser. Es ist das letzte Update, was durch das Repository auf notabug verbreitet wird.",
+  "url": "https://notabug.org/fynngodau/dsbdirect-filedump/raw/master/DSBDirect-3.3.apk"
+}

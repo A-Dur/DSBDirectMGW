@@ -1,0 +1,28 @@
+# Built application files
+/*/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle generated files
+.gradle/
+/gradle/wrapper/gradle-wrapper.jar
+
+# User-specific configurations
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build output
+/app/notabug
+/app/play
+/app/release
+

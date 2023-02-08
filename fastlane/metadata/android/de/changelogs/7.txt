@@ -1,0 +1,4 @@
+* Schneller Laden™ implementiert (#2)
+* Statusnachrichten vereinfacht, damit man nicht so viel an das Innenleben der Software denken muss
+* Flüssigere Darstellung der Zuletzt Aktualisiert-Infoleiste
+* Zeigt nicht mehr spontan an, dass Version aktuell ist (sucht aber weiterhin spontan nach Updates – die [F-Droid-Version](https://f-droid.org/es/packages/godau.fynn.dsbdirect/) hingegen nicht)

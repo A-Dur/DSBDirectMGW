@@ -1,0 +1,8 @@
+It is now possible to filter by courses.
+
+---
+
+* Filters improved
+* Course filters added
+* Always show general announcements enabled by default
+

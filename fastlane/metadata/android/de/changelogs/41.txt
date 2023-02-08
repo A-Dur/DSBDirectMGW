@@ -1,0 +1,4 @@
+Wartungs-Release.
+
+* Ziehen zum Aktualisieren
+* App lädt etwas besser neu

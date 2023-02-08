@@ -1,0 +1,4 @@
+* Benachrichtigungen auch für Tabellen, die nicht ausgelesen werden können
+* Erhöhung der Version einer Bibliothek, was die Stabilität erhöhen soll
+
+Hoffen wir mal, dass das Ganze gut funktioniert…

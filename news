@@ -1,0 +1,5 @@
+{
+  "statusMessage": "[01/26] The app is currently not known not to be working.",
+  "statusMessageDE": "[26.01.] Im Moment ist nicht bekannt, dass die App nicht funktioniert.",
+  "queryBodyBaseJson": "{\"AppId\":\"a294ddc7-d22c-42d0-a331-197a9dadee65\",\"AppVersion\":\"2.5.9\",\"OsVersion\":\"23 6.0.1\",\"Device\":\"Kartoffel\",\"BundleId\":\"de.heinekingmedia.dsbmobile\"}"
+}

@@ -1,0 +1,81 @@
+<!--
+  ~ DSBDirect
+  ~ Copyright (C) 2019 Fynn Godau
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ This software is not affiliated with heinekingmedia GmbH, the
+  ~ developer of the DSB platform.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="108dp"
+        android:height="108dp"
+        android:viewportWidth="53.75661"
+        android:viewportHeight="53.75662">
+    <group android:translateX="9.944973"
+            android:translateY="9.944975">
+      <path
+          android:pathData="m27.7059,22.2485c-0.9465,-2.2604 -19.9187,5.084 -19.9187,5.084 0,0 20.4149,-3.899 19.9187,-5.084z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#ffffff"
+          android:strokeColor="#00000000"
+          android:strokeLineCap="butt"/>
+      <path
+          android:pathData="m27.4998,20.5656c-0.8144,-2.5338 -19.0713,5.2881 -19.0713,5.2881 0,0 19.3155,-4.5284 19.0713,-5.2881z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#ffffff"
+          android:strokeColor="#00000000"
+          android:strokeLineCap="butt"/>
+      <path
+          android:pathData="m26.9209,18.7949c-0.679,-2.0597 -17.601,4.9872 -17.601,4.9872 0,0 17.9125,-4.0423 17.601,-4.9872z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#ffffff"
+          android:strokeColor="#00000000"
+          android:strokeLineCap="butt"/>
+      <path
+          android:pathData="m6.4317,27.9996c17.1596,-2.7991 21.5222,-4.9998 21.7303,-5.4547 0.2081,-0.4549 -0.7297,-4.5458 -1.001,-4.9643 -0.2713,-0.4186 -21.0466,5.6132 -21.3936,5.2894 -0.347,-0.3238 -0.9654,-0.4893 0.1901,-0.9638 1.1555,-0.4745 20.9543,-5.4373 21.5666,-5.0568 0.6123,0.3804 2.0982,5.659 1.0208,6.6773 -1.0775,1.0183 -22.5375,5.7901 -22.4084,4.8121 0.0495,-0.375 0.2951,-0.3391 0.2951,-0.3391z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#ffffff"
+          android:strokeColor="#00000000"
+          android:fillAlpha="1"
+          android:strokeLineCap="butt"/>
+      <path
+          android:pathData="M4.865,21.4582C16.1067,7.9145 15.8765,3.0802 15.8765,3.0802l3.2229,14.7331c-0.6844,0.6083 -14.2344,3.6449 -14.2344,3.6449z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#fffffb"
+          android:strokeColor="#00000000"
+          android:fillAlpha="1"
+          android:strokeLineCap="butt"/>
+      <path
+          android:pathData="m19.866,17.6334 l-3.338,-15.0401c0,0 4.9737,-0.1925 8.249,4.3739 1.8843,2.627 2.4555,9.4768 2.4555,9.4768 0,0 -4.4196,1.2522 -7.3666,1.1894z"
+          android:strokeAlpha="1"
+          android:strokeLineJoin="miter"
+          android:strokeWidth="0.30385548"
+          android:fillColor="#fffffb"
+          android:strokeColor="#00000000"
+          android:fillAlpha="1"
+          android:strokeLineCap="butt"/>
+    </group>
+</vector>

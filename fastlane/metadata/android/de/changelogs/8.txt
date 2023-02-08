@@ -1,0 +1,4 @@
+* Unterstützung für Inhalte, die nicht HTML sind (Bilder)
+* Unterstützung für mehrere Bilder oder Seiten
+* Parsen wird deaktiviert, wenn neue Zugangsdaten eingegeben werden
+* Kleine Korrektur beim Darstellen des AvH-DSBs als Webseite

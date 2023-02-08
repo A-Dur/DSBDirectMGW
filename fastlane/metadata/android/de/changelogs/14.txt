@@ -1,0 +1,17 @@
+Bisher das größte Update.
+
+* Anmeldedialog beim ersten Start (#11)
+* Mehrere Seiten in eine vereinen (#14)
+* Neues, frisches Karten-Layout
+* Neuer Untis-Tabellenleser mit Unterstützung für viel mehr Untis-Systeme
+* Automatische Erkennung von Untis-Systemen
+* Tabellenleser jetzt auch für ältere Android-Versionen
+* Unterstützung für Durchgestrichenes
+* Dunkles und schwarzes Design
+* Gedrückt halten, um Eintrag zu teilen
+* Bilder ranzoomen
+* Nützlichere Beschreibung auf Seitenauswahl
+* Unterstützung für das invertieren von Bildern
+* Blaufarbiger splash screen
+* Automatisch zu korrektem Zeichensatz wechseln
+* Google Play-Variante

@@ -1,0 +1,5 @@
+Small update
+
+* Entries for "Entfall wegen Klausur" are tidier
+* Entries with subjects that have spaces can now also be filtered
+* And a few more changes

@@ -1,0 +1,6 @@
+The company behind DSB broke DSBDirect. Now it's repaired again.
+
+---
+
+The `iphone.dsbcontrol.de` endpoint is no longer in use as it has been disabled, instead the one at `https://app.dsbcontrol.de/JsonHandler.ashx/GetData`is used, but it works totally different
+

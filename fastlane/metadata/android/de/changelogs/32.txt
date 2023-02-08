@@ -1,0 +1,12 @@
+Hier haben sind ein paar Verbesserungen angesammelt, die eine Aktualisierung wert sein dürften. Es ist jetzt endlich möglich, Zugangsdaten für mehrere Pläne gleichzeitig zu speichern und über das Menü hin- und herzuwechseln. Außerdem gibt es endlich ein Nutzerinterface für die Kürzelfunktion, dank Moritz Zwerger kann man auch welche aus der Platform "Eltern-Portal" importieren. Es gibt des weiteren einen neuen Tabellenleser, betitelt "WhiteYellow", und Einträge, die mit mehreren Filterkategorien übereinstimmen, werden hervorgehoben.
+
+---
+
+* Mehrere Logins (#26)
+* Um die Entwicklung eines Tabellenlesers bitten, ohne die Zugangsdaten zu übermitteln (#56)
+* Kürzel (#27)
+* Kürzel vom "Eltern-Portal" importieren (#57)
+* Einträge, die mit mehreren Filtern übereinstimmen, werden hervorgehoben (#49)
+* WhiteYellow-Tabellenleser für Pläne einer Stundenplansoftware unbekannten Namens
+
+

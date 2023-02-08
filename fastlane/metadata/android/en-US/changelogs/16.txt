@@ -1,0 +1,3 @@
+* Notifications might now continue to be checked for after a reboot
+* No more br tags in notifications
+* Humanized date for "tomorrow", "today" and "yesterday"

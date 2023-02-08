@@ -1,0 +1,276 @@
+<!--
+  ~ DSBDirect
+  ~ Copyright (C) 2019 Fynn Godau
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ This software is not affiliated with heinekingmedia GmbH, the
+  ~ developer of the DSB platform.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_parser">
+
+        <CheckBoxPreference
+            android:title="@string/settings_view_parse"
+            android:summary="@string/settings_view_parse_summary"
+            android:defaultValue="true"
+            android:key="parse"
+            />
+        <ListPreference
+            android:title="@string/settings_view_parser"
+            android:id="@+id/settings_view_parser"
+            android:defaultValue="automatic"
+            android:summary="%s"
+            android:dependency="parse"
+            android:key="parser"
+            /> <!-- Thanks, https://stackoverflow.com/a/24772748 -->
+        <CheckBoxPreference
+            android:title="@string/settings_view_merge"
+            android:summary="@string/settings_view_merge_summary"
+            android:defaultValue="true"
+            android:dependency="parse"
+            android:key="merge"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_view">
+
+        <ListPreference
+            android:title="@string/settings_view_layout"
+            android:summary="%s"
+            android:entries="@array/settings_view_layout_options"
+            android:entryValues="@array/settings_view_layout_values"
+            android:defaultValue="cards"
+            android:dependency="parse"
+            android:key="layout"
+            />
+        <Preference
+            android:title="@string/settings_view_styling"
+            android:key="styling"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_filter">
+
+        <CheckBoxPreference
+            android:title="@string/settings_view_filter"
+            android:id="@+id/settings_view_filter"
+            android:summary="@string/settings_view_filter_summary"
+            android:dependency="parse"
+            android:key="filter"
+            />
+        <Preference
+            android:title="@string/settings_view_set_filter"
+            android:id="@+id/settings_view_set_filter"
+            android:dependency="filter"
+            android:key="set_filter"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_view_filter_exclude_general"
+            android:defaultValue="true"
+            android:dependency="filter"
+            android:key="displayGeneral"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_view_filter_hide_past"
+            android:defaultValue="true"
+            android:dependency="filter"
+            android:key="filterPast"
+            />
+        <CheckBoxPreference
+            android:id="@+id/settings_view_filter_useless"
+            android:title="@string/settings_view_useless"
+            android:defaultValue="true"
+            android:dependency="filter"
+            android:key="filterUselessInfo"
+            android:summary="@string/settings_view_useless_summary"
+        />
+        <CheckBoxPreference
+            android:title="@string/long_click_add_course_parser"
+            android:summary="@string/long_click_add_course_parser_summary"
+            android:enabled="true"
+            android:dependency="filter"
+            android:defaultValue="false"
+            android:key="pLongClickAddCourse"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_shortcodes">
+
+        <CheckBoxPreference
+            android:title="@string/settings_shortcodes_enable"
+            android:id="@+id/settings_shortcodes_enable"
+            android:summary="@string/settings_shortcodes_enable_summary"
+            android:dependency="parse"
+            android:key="shortcodes_enabled"
+            />
+        <Preference
+            android:title="@string/settings_shortcodes_manage"
+            android:dependency="shortcodes_enabled"
+            android:key="shortcode_manage"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_polling">
+
+        <Preference
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="@string/settings_polling_description"
+            android:key="polling_description"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_polling_enabled"
+            android:defaultValue="false"
+            android:key="poll"
+            />
+        <ListPreference
+            android:title="@string/settings_polling_interval"
+            android:summary="@string/settings_polling_interval_summary"
+            android:entries="@array/settings_polling_interval_options"
+            android:entryValues="@array/settings_polling_interval_values"
+            android:defaultValue="5"
+            android:dependency="poll"
+            android:key="pollingInterval"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_polling_download"
+            android:summary="@string/settings_polling_download_summary"
+            android:defaultValue="true"
+            android:dependency="poll"
+            android:key="autoDownload"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_polling_display_empty"
+            android:summary="@string/settings_polling_display_empty_summary"
+            android:defaultValue="false"
+            android:dependency="autoDownload"
+            android:key="displayEmpty"
+            />
+        <CheckBoxPreference
+            android:title="@string/settings_polling_save_data"
+            android:summary="@string/settings_polling_save_data_summary"
+            android:defaultValue="false"
+            android:dependency="poll"
+            android:key="doNotCheckAfter4Pm"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_login">
+
+        <Preference
+            android:title="@string/settings_login_manage"
+            android:key="login_manage"
+            />
+
+        <ListPreference
+            android:title="@string/settings_endpoint"
+            android:summary="@string/settings_endpoint_summary"
+            android:entries="@array/settings_endpoint_options"
+            android:entryValues="@array/settings_endpoint_options"
+            android:defaultValue="mobileapi.dsbcontrol.de"
+            android:key="endpoint"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_time_travel">
+
+        <Preference
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="@string/settings_time_travel_description"
+            android:key="time_travel_description"
+            /> <!-- Thanks, https://stackoverflow.com/a/26659953 -->
+        <ListPreference
+            android:title="@string/settings_time_travel_caching"
+            android:entries="@array/settings_time_travel_caching_options"
+            android:entryValues="@array/settings_time_travel_caching_values"
+            android:defaultValue="604800000"
+            android:summary="@string/settings_time_travel_caching_summary"
+            android:key="cache_duration"
+            />
+        <Preference
+            android:title="@string/settings_time_travel_clear_cache"
+            android:persistent="false"
+            android:key="clear_cache_now"
+            />
+
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+    <godau.fynn.dsbdirect.view.PreferenceCategory
+        android:title="@string/settings_about">
+        <Preference
+            android:title="@string/settings_about_description"
+            android:selectable="false"
+            android:persistent="false"
+            android:icon="@mipmap/ic_launcher"
+            android:key="settings_about_description"
+            />
+        <Preference
+            android:title="@string/settings_about_email"
+            android:persistent="false"
+            android:summary="@string/settings_about_email_summary"
+            android:key="settings_about_email"
+            />
+        <Preference
+            android:title="@string/settings_about_request_parser"
+            android:persistent="false"
+            android:key="settings_about_request_parser"
+            android:enabled="false"
+            />
+        <Preference
+            android:title="@string/settings_about_repository"
+            android:persistent="false"
+            android:summary="@string/settings_about_repository_summary"
+            android:key="settings_about_repository"
+            />
+        <Preference
+            android:title="@string/settings_about_mgw_repository"
+            android:persistent="false"
+            android:summary="@string/settings_about_mgw_repository_summary"
+            android:key="settings_about_mgw_repository"
+            />
+        <Preference
+            android:title="@string/settings_about_issues"
+            android:persistent="false"
+            android:summary="@string/settings_about_issues_summary"
+            android:key="settings_about_issue"
+            />
+        <Preference
+            android:title="@string/settings_about_show_changes"
+            android:summary="@string/settings_about_show_changes_summary"
+            android:key="settings_about_show_changes"
+            />
+        <Preference
+            android:title="@string/settings_about_libraries"
+            android:key="settings_about_libraries"
+            />
+    </godau.fynn.dsbdirect.view.PreferenceCategory>
+
+</PreferenceScreen>

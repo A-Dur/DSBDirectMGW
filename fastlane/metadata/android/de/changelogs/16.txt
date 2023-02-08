@@ -1,0 +1,5 @@
+* Die Suche nach Benachrichtigungen geht jetzt möglicherweise auch nach einem
+  Neustart weiter
+* Keine br-Tags in Benachrichtigungen
+* Menschliche Datumsangaben für "gestern", "heute" und "morgen"
+* Tippfehler behoben!

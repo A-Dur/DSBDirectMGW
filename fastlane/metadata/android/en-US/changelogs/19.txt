@@ -1,0 +1,1 @@
+Thanks to Jasper Michalke's contributions, there is now a parser for HeinekingMedia Vertretungsplan, firstly only intended to use for with Goethe-Gymnasium Hamburg. Furthermore, rotating the device will no longer cause everything to reload. It's magic!

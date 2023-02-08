@@ -1,0 +1,11 @@
+This update is required to support the new DSB endpoint, and to fix the application on old Android versions.
+
+* Support new endpoint (#81 #82)
+* Allow switching between endpoints (#82)
+* Support TLS 1.2 on older Android versions (#17 #82)
+* Automatically hide all notifications once they are opened
+* Allow changing passwords by reauthenticating (#75)
+* Prompt to reauthenticate if credentials are denied (#75)
+* Display appropriate message if no content is available
+* Fix display error in login view (#61)
+* Support Android API 14

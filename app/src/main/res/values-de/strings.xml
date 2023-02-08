@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ DSBDirect
+  ~ Copyright (C) 2019 Fynn Godau
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  ~
+  ~ This software is not affiliated with heinekingmedia GmbH, the
+  ~ developer of the DSB platform.
+  -->
+
+<resources>
+    <string name="app_name">DSBDirectMGW</string>
+    <string name="app_name_offline">DSBDirectMGW Zeitreise</string>
+    <string name="credentials_invalid">Zugangsdaten ungültig</string>
+    <string name="credentials_correct">Zugriffscode erhalten</string>
+
+    <string name="timetable_uri_acquired">Darstellung des Planes</string>
+    <string name="timetable_last_changed">Letzte Änderung %s</string>
+    <string name="timetable_published">Veröffentlicht %s</string>
+    <string name="timetable_updated_now">Gerade eben</string>
+
+    <string name="network_generic_error">Netzwerkfehler</string>
+    <string name="network_invalid_response">Ungültige Antwort</string>
+
+    <string name="error_parsing">Tabelle konnte nicht erstellt werden</string>
+    <string name="error_parsing_partial">Teile der Tabelle konnten nicht dargestellt werden</string>
+    <string name="error_displaying">Datei konnte nicht angezeigt werden</string>
+
+    <string name="network_authenticating">Anmeldung</string>
+
+    <string name="input_hint_pass">Passwort</string>
+    <string name="input_hint_id">ID</string>
+
+    <string name="button_submit">OK</string>
+
+    <string name="action_reload">Neu laden</string>
+    <string name="action_temp_filters_enable">Filter aktivieren</string>
+    <string name="action_temp_filters_disable">Filter deaktivieren</string>
+    <string name="action_reauth">Neu anmelden</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_choose_parser">Tabellenleser ändern</string>
+
+    <string name="connect_webuntis_preference">Mit WebUntis verbinden</string>
+    <string name="connect_webuntis_preference_summary">Mit WebUntis (z.B. vom LAU) verbinden, um auch diesen Plan in der Liste integrieren zu können (in Entwicklung)</string>
+
+    <string name="confirm">Bestätigen</string>
+    <string name="added">hinzugefügt</string>
+    <string name="already_added">wurde bereits hinzugefügt</string>
+    <string name="removed">entfernt</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="import_">Importieren</string>
+    <string name="action_filter_popup_title">Filter</string>
+    <string name="number">Zahl</string>
+    <string name="letter">Buchstabe</string>
+    <string name="courses">Kurse</string>
+    <string name="name">Name</string>
+    <string name="filter_by_class">Nach Klasse filtern</string>
+    <string name="filter_by_courses">Nach Kursen filtern (durch Leerzeichen trennen; Kurse müssen im Info-Feld erscheinen)</string>
+    <string name="filter_by_teacher">Nach Lehrkraft filtern</string>
+    <string name="settings_view_filter_exclude_general">Generelle Ankündigungen immer anzeigen (empfohlen)</string>
+    <string name="action_filter_popup_message">Bitte gib die Klasse oder die Kurse oder die Lehrkraft, nach der gefiltert werden soll, ein. Einträge, für die mehrere Kategorien zutreffen, werden <b>hervorgehoben</b>. Groß-/Kleinschreibung bitte beachten.</string>
+    <string name="action_parse">Tabellendarstellung</string>
+    <string name="action_view_history">Verlauf ansehen</string>
+    <string name="dismiss">Egal</string>
+    <string name="download">Herunterladen</string>
+    <string name="initializing">Initialisierung</string>
+    <string name="parser_automatic">Automatisch</string>
+    <string name="ok">OK</string>
+    <string name="empty">Nichts anzuzeigen</string>
+    <string name="you_are_offline">Du bist offline</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="settings_view">Ansicht</string>
+    <string name="settings_view_parse">Tabellendarstellung</string>
+    <string name="settings_view_parse_not_html">Bilddateien können nicht ausgelesen werden</string>
+    <string name="settings_view_parser">Tabellenleser</string>
+    <string name="settings_view_filter">Filter aktivieren</string>
+    <string name="settings_view_useless">Unwichtige Einträge nicht anzeigen</string>
+    <string name="settings_view_useless_summary">Einträge wie \"Abwesende Klassen\" nicht anzeigen</string>
+    <string name="settings_view_set_filter">Filter einstellen</string>
+    <string name="settings_view_parse_summary">Pläne mithilfe eines Tabellenlesers in eine verarbeitbare Tabelle auslesen</string>
+    <string name="settings_view_filter_summary">Nur relevante Einträge anzeigen</string>
+    <string name="settings_view_invert_images">Bilder invertieren</string>
+    <string name="settings_view_invert_images_summary">Bildfarben umwenden, um schwarz und weiß zu tauschen</string>
+    <string name="settings_view_invert_images_no_images">In deinem Plan gibt es keine Bilder</string>
+    <string name="settings_login">Anmeldung</string>
+    <string name="settings_login_id">ID</string>
+    <string name="settings_login_pass">Passwort</string>
+    <string name="mgw_notice">Die Anmeldedaten des Vertretungsplans kannst du beim Sekretariat bekommen.</string>
+    <string name="settings_time_travel">Zeitreise</string>
+    <string name="settings_time_travel_caching">Speicherdauer</string>
+    <string name="settings_time_travel_caching_summary">Dateien werden für %s gespeichert</string>
+    <string name="settings_time_travel_clear_cache">Jetzt alle Dateien löschen</string>
+    <string name="settings_time_travel_description">Mit einer Zeitreise kannst du alte Versionen deines Plans, die noch auf deinem Gerät gespeichert sind, ansehen.</string>
+    <string name="clear_cache_popup_title">Dateien löschen</string>
+    <string name="clear_cache_popup_message">Möchtest du %1$s (%2$s) löschen?</string>
+    <string name="settings_about">Über</string>
+    <string name="settings_about_description">Entwickelt von Fynn Godau</string>
+    <string name="settings_about_description_summary">Dies ist Version %s</string>
+    <string name="settings_about_email">Dem Entwickler eine E-Mail-Nachricht schicken</string>
+    <string name="settings_about_email_summary">Er freut sich über jegliche Nachrichten, weil er dann weiß, dass die Software, die er entwickelt hat, benutzt wird</string>
+    <string name="email_body">(Bleibe höflich!)</string>
+    <string name="settings_about_request_parser">Um die Entwicklung eines Tabellenlesers bitten</string>
+    <string name="settings_about_issues">Issue tracker</string>
+    <string name="settings_about_repository">DSBDirect Repository</string>
+    <string name="settings_about_repository_summary">Diese Software ist unter GNU GPL v3 lizenziert, weswegen du zusätzliche Freiheiten genießt</string>
+    <string name="settings_about_mgw_repository">DSBDirectMGW Repository</string>
+    <string name="settings_about_mgw_repository_summary">Das Repository zu dieser Version</string>
+    <string name="settings_about_issues_summary">Gebrauche den Issue tracker, um Funktionen zu beantragen und Fehler zu melden</string>
+    <string name="request_parser_popup_title">Tabellenleser beantragen</string>
+    <string name="request_parser_popup_message">Um einen Tabellenleser zu entwickeln, benötigt der Entwickler Zugang zu deinem Plan.
+        \n\nDeswegen wird die URL der letzten Vertretungsplandatei an einen von Moritz Zwerger (bixilon.de) betriebenen Server übertragen.
+        \n\nBeim Transfer werden keine persönlichen Daten gespeichert. Der Uploadvorgang ist nicht automatisch reversibel, bitte nimm Kontakt auf, wenn du versehentlich den Zugang zu einer vertraulichen Datei hochgeladen hast.
+        \n\nWenn dein Plan aus Bildern besteht, kann er nicht ausgelesen werden. Frage deine Schule, ob sie dem Elektronischen Schwarzen Brett stattdessen eine Webseite ausliefern können.
+        \n\nEs ist vielleicht trotzdem nützlich ein Issue zu erstellen, dann wirst du auf dem aktuellen Stand gehalten.
+    </string>
+    <string name="credentials_popup_title">Anmeldung fehlgeschlagen</string>
+    <string name="one_file">eine Datei</string>
+    <string name="files">Dateien</string>
+    <string name="transfer_now">Jetzt übertragen</string>
+    <string name="dont_request">Doch nicht</string>
+    <string name="open">Öffnen</string>
+    <string name="login_login">Anmelden</string>
+    <string name="login_title">Im Elektronischen Schwarzen Brett anmelden</string>
+    <string name="reader_automatic">Automatisch (empfohlen)</string>
+
+    <string-array name="show_mgw_changes">
+        <item>Die \"Information\" Spalte im Vertretungsplan wird nun auch angezeigt</item>
+        <item>Lehrer mit dem Namen \"+\" werden mit \"Kein Vertreter\" ersetzt</item>
+        <item>Wenn ein Kurs aus mir unbekannten Gründen ein Leerzeichen anstatt eines Bindestriches hat, kann dieser auch gefiltert werden, indem einfach auch ein Bindestrich hinzugefügt wird</item>
+        <item>Wenn nach Klasse/Stufe UND Kursen gefiltert wird, werden keine Kurse mehr aus anderen Stufen angezeigt, die den gleichen Kursnamen haben</item>
+        <item>Einträge mit dem Typ \"Klausur\" werden besser dargestellt</item>
+        <item>Option bei den Filtern hinzugefügt, welche ermöglicht, beim gedrückthalten eines Eintrags den enthaltenen Kurs zu dem Kursfilter hinzuzufügen</item>
+        <item>Andere kleine Verbesserungen</item>
+    </string-array>
+
+    <string-array name="settings_view_layout_options">
+        <item>Liste</item>
+        <item>Karten – Schüler*in</item>
+        <item>Karten – Lehrkraft</item>
+    </string-array>
+    <string-array name="settings_view_style_options">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Schwarz</item>
+    </string-array>
+    <string-array name="settings_time_travel_caching_options">
+        <item>drei Tage</item>
+        <item>eine Woche</item>
+        <item>zwei Wochen</item>
+        <item>einen Monat</item>
+        <item>drei Monate</item>
+        <item>eine Ewigkeit</item>
+    </string-array>
+    <string-array name="settings_polling_interval_options">
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>20 Minuten</item>
+        <item>30 Minuten</item>
+    </string-array>
+    <string name="settings_polling">Benachrichtigungen</string>
+    <string name="settings_polling_enabled">Benachrichtigungen aktivieren</string>
+    <string name="notification_channel_plan_updates">Planaktualisierungen</string>
+    <string name="notification_channel_plan_updates_description">Über Planaktualisierungen benachrichtigen</string>
+    <string name="notification_plan_html_updates_title">Heute</string>
+    <string name="notification_plan_html_updates_empty">Keine Einträge für heute</string>
+    <string name="notification_plan_updates_title">Neuer Plan verfügbar</string>
+    <string name="notification_plan_updates_text_pluralize_entries_one">Es gibt einen Eintrag</string>
+    <string name="notification_plan_updates_text_pluralize_entries_many">Es gibt {0} Einträge</string>
+    <string name="settings_polling_description">Empfange die Einträge des Tages als Benachrichtigung, sobald sie verfügbar werden. Diese Funktion kann Batterieverbrauch verursachen. Wochenends und in der Nacht wird nicht nach Benachrichtigungen gesucht, um Energie zu sparen.</string>
+    <string name="settings_view_layout">Layout</string>
+    <string name="settings_view_filter_hide_past">Vergangene Einträge nicht anzeigen</string>
+    <string name="settings_view_polling_api_too_low">Benötigt Android 5.0+</string>
+    <string name="settings_polling_interval">Aktualisierungsintervall</string>
+    <string name="settings_polling_interval_summary">Alle %s nach neuen Benachrichtigungen suchen</string>
+    <string name="settings_polling_save_data">Kein Traffic nach 16 Uhr (Beta)</string>
+    <string name="settings_polling_save_data_summary">Nach 16 Uhr wird nicht mehr nach neuen Einträgen gesucht um Datenvolumen zu sparen</string>
+    <string name="settings_polling_display_empty">Leere Nachrichten anzeigen</string>
+    <string name="settings_polling_display_empty_summary">Auch benachrichtigen, wenn keine Einträge den Filtern entsprechen</string>
+    <string name="settings_polling_download">Neue Pläne automatisch herunterladen</string>
+    <string name="settings_polling_download_summary">Neue Dateien herunterladen, sobald sie gefunden wurden</string>
+    <string name="settings_polling_download_recommended">Benötigt, um Einträge in Benachrichtigungen anzuzeigen</string>
+    <string name="settings_view_merge">Zusammenführen</string>
+    <string name="settings_view_merge_summary">Mehrere Seiten in eine Tabelle zusammenführen</string>
+    <string name="long_click_add_course_parser">Durch langes Tippen Kurs hinzufügen</string>
+    <string name="long_click_add_course_parser_summary">Wenn ein Eintrag lange gedrückt wird, kannst du den enthaltenen Kurs zu deinen Filtern hinzufügen (Ersetzt gedrückt halten um zu teilen)</string>
+    <string name="credentials_popup_message">Deine Zugansdaten sind ungültig. Wenn sie das nicht sind, könnte das ein Problem sein, für das es bereits eine Lösung gibt.</string>
+    <string name="network_generic_error_credentials">Während der Verifizierung deiner Zugangsdaten ist ein Fehler aufgetreten.</string>
+    <string name="notifications_popup_title">Benachrichtigungen aktivieren?</string>
+    <string name="notifications_popup_message">Möchtest du Benachrichtigungen erhalten, wenn dein Plan aktualisiert wird?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="share_title">Diesen Eintrag teilen</string>
+    <string name="settings_filter">Filter</string>
+    <string name="settings_view_style">Hintergrund</string>
+    <string name="settings_parser">Tabellenleser</string>
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="yesterday">Gestern</string>
+    <string name="settings_about_libraries">Über Bibliotheken</string>
+    <string name="settings_about_show_changes">Alle Änderungen der MGW Version</string>
+    <string name="settings_about_show_changes_summary">Änderungen anzeigen, welche die MGW Version gegenüber der ursprünglichen Version hat</string>
+    <string name="contact_app_developer">App-Entwickler kontaktieren</string>
+    <string name="credits">HeinekingMedia-Tabellenleser entwickelt von Jasper Michalke
+        \nEin paar Kleinigkeiten entwickelt von Moritz Zwerger\nFür das MGW überarbeitet von Arthur Harder
+    </string>
+    <string name="settings_view_styling">Stil und Farben</string>
+    <string name="settings_styling_color_primary">Hauptfarbe</string>
+    <string name="action_pick_color_popup_message">Wähle eine Farbe.</string>
+    <string name="action_pick_color_popup">Farbe wählen</string>
+    <string name="settings_styling_color_accent">Akzentfarbe</string>
+    <string name="settings_styling_color_primary_dark">Hauptfarbe dunkel</string>
+    <string name="settings_style_description">Du kannst die Farben der Applikation deinem Geschmack anpassen. Ungünstigerweise werden die voreingestellten Farben blau und pink weiterhin an manchen Stellen sichtbar sein, an denen es schwierig oder unmöglich ist, sie zu ändern.</string>
+    <string name="news_fix">Nach einer Fehlerbehebung suchen</string>
+    <string name="news_network_error_generic">Die Suche nach einer Fehlerbehebung war aufgrund eines Netzwerkfehlers nicht möglich.</string>
+    <string name="news_network_invalid_response">Die Suche nach einer Fehlerbehebung ist fehlgeschlagen, vielleicht versuchst du es besser später noch einmal?</string>
+    <string name="action_check_news">Neuigkeiten herunterladen</string>
+    <string name="network_login_denied">Login abgelehnt – entweder sind deine Zugangsdaten falsch oder der Server hat keine Lust</string>
+    <string name="credentials_popup_open_preferences">Einstellungen öffnen</string>
+    <string name="settings_view_parse_not_exclusively_html">Zusammenführen ist nicht möglich, weil dein Plan wenigstens ein Bild beinhaltet</string>
+    <string name="action_switch_login">Login wechseln</string>
+    <string name="action_add_login">Login hinzufügen</string>
+    <string name="settings_login_manage">Zugangsdaten verwalten</string>
+    <string name="settings_login_alias_popup">Anzeigename für %s einstellen</string>
+    <string name="settings_login_alias_popup_message">Wenn du einen Anzeigenamen einstellst, wird dieser anstatt der ID im Login-Wechselmenü angezeigt. Lässt du ihn frei, wird er wenn möglich mit dem Namen der Schule befüllt.</string>
+    <string name="settings_login_description">Du kannst im Menü auf dem Hauptbildschirm zwischen verschiedenen Logins wechseln.</string>
+    <string name="settings_login_remove">Login entfernen</string>
+    <string name="network_generic_error_request">Beim Übermitteln deiner Anfrage ist ein Problem aufgetreten. Bitte stelle sicher, dass das Internet erreichbar ist.</string>
+    <string name="request_parser_uploading_message">Anfrage läuft…</string>
+    <string name="request_parser_uploading_failed_message">Der Server hat ein Problem beim Empfangen deiner Datei gemeldet.</string>
+    <string name="request_parser_uploading_successful_message">Der Server hat deine Datei erfolgreich empfangen.</string>
+    <string name="request_parser_uploading_successful_title">Anfrage erfolgreich</string>
+    <string name="request_parser_uploading_failed_title">Anfrage fehlgeschlagen</string>
+
+
+    <string name="settings_shortcodes">Kürzel</string>
+    <string name="settings_shortcodes_enable">Kürzel aktivieren</string>
+    <string name="settings_shortcodes_enable_summary">Lehrkraftkürzel durch den vollständigen Namen ersetzen</string>
+    <string name="settings_shortcodes_elternportal">Import von eltern-portal.org</string>
+    <string name="settings_shortcodes_elternportal_summary">Falls deine Schule die Platform \"Eltern-Portal\" benutzt, können die Kürzel der Lehrkräfte von dort heruntergeladen werden (Das MGW benutzt diese Plattform leider nicht)</string>
+
+
+    <string name="settings_shortcodes_elternportal_popup_title">Kürzel importieren</string>
+    <string name="settings_shortcodes_elternportal_popup_message">Bitte gib hier die Zugangsdaten für das von art soft and more GmbH betriebene "Eltern-Portal" ein, um die Kürzel von dort einmalig automatisch zu importieren. Zugansdaten werden nicht gespeichert. Vorhandene Kürzel werden überschrieben.</string>
+
+    <string name="settings_shortcodes_elternportal_popup_text_url">URL des Eltern-Portals</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_url">URL</string>
+    <string name="settings_shortcodes_elternportal_popup_text_email">E-Mail-Adresse</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_email">E-Mail</string>
+    <string name="settings_shortcodes_elternportal_popup_text_password">Passwort</string>
+    <string name="settings_shortcodes_elternportal_popup_hint_password">Pass</string>
+
+
+    <string name="settings_shortcodes_elternportal_popup_success_title">Import erfolgreich</string>
+    <string name="settings_shortcodes_elternportal_popup_fail_title">Import fehlgeschlagen</string>
+    <string name="settings_shortcodes_elternportal_popup_success_message">Die Kürzel wurden erfolgreich importiert.</string>
+    <string name="settings_shortcodes_elternportal_popup_fail_network">Das Eltern-Portal konnte nicht erreicht werden. Bitte stelle sicher, dass das Internet erreichbar ist.</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_url">Ungültige URL</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_url_message">Die eingegebene URL war leider nicht gültig.</string>
+    <string name="settings_shortcodes_elternportal_popop_fail_credentials_invalid">Die eingegebenen Zugangsdaten waren leider nicht richtig.</string>
+    <string name="settings_shortcodes_edit_popup">Kürzel bearbeiten</string>
+    <string name="settings_shortcodes_edit_popup_remove">Kürzel entfernen</string>
+    <string name="settings_shortcodes_add">Kürzel hinzufügen</string>
+    <string name="settings_shortcodes_edit_popup_failure">Kürzel konnte nicht gespeichert werden</string>
+    <string name="settings_shortcodes_edit_popup_failure_needs_from">Beide Felder müssen ausgefüllt sein.</string>
+    <string name="settings_shortcodes_edit_popup_failure_illegal_character">Kein Feld darf das Zeichen \'→\' enthalten.</string>
+    <string name="settings_shortcodes_manage">Kürzel verwalten</string>
+    <string name="settings_shortcodes_add_popup">Kürzel hinzufügen</string>
+    <string name="settings_shortcodes_description">Kürzel werden durch den vollständen Namen der zugehörigen Lehrkraft ersetzt.</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="notice_board">Aushänge</string>
+    <string name="action_notices">Aushänge</string>
+    <string name="notice_board_content_not_displayable">Nicht darstellbarer Inhalt</string>
+    <string name="notice_board_content_not_displayable_openable">Nicht darstellbarer Inhalt – zum externen Öffnen klicken</string>
+
+    <string name="migration_dsbdirect_rename">Diese App wurde umbenannt</string>
+    <string name="migration_dsbdirect_rename_message">Aufgrund der Existenz des Markenrechts wurde diese Software in ESBDirect umbenannt. Das \"ESB\" steht für \"Elektronisches Schwarzes Brett\".
+\n\nSollte dir ein besserer Name einfallen, zögere nicht, eine E-Mail-Nachricht zu schicken.</string>
+    <string name="email_the_dev">E-Mail schicken</string>
+    <string name="network_no_content">Kein Inhalt verfügbar</string>
+    <string name="network_request_notice_board_generic_error_snackbar">Aushänge konnten nicht geladen werden</string>
+    <string name="settings_endpoint">Endpunkt</string>
+    <string name="settings_endpoint_summary">Wenn die App nicht mehr funktioniert, versuche, diese Einstellung zu ändern</string>
+    <string name="migration_depreciation_self_update">Einstellung des Vertriebs über das Repository</string>
+    <string name="empty_string">""</string>
+    <string name="migration_depreciation_self_update_message">Weil es zu viel mühevolle Handarbeit war, werden zukünftige Versionen nicht mehr über das Repository auf notabug verbreitet. Dies ist die letzte Version auf notabug. Der integrierte Update-Checker wurde entfernt.
+        \n\nBitte beziehe zukünftige Versionen über F-Droid.
+        \n\nBeachte, dass die Versionen von F-Droid mit denen aus dem Repository nicht kompatibel sind. Daher muss die App deinstalliert werden, bevor sie erneut von F-Droid installiert werden kann. Bitte entschuldige diese Unannehmlichkeit.
+    </string>
+</resources>

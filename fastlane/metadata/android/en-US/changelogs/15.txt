@@ -1,0 +1,6 @@
+Various improvements.
+
+* Automatically cancel New plan available notification
+* HTML handling in notifications
+* Only display duplicate plans once (#16)
+* Strikethrough on older devices
