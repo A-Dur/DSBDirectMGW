@@ -11,7 +11,7 @@ It has been developed independently from heinekingmedia and implements the same 
 * View the "News" and "Aushänge" sections
 * Loads relatively quickly
 
-## Download
+## Download (original version)
 
 Android 4.0 and up. Notification on Android 5 and up. (Nowadays, nobody has Android 4 anymore. Truly.) 
 
